@@ -35,8 +35,8 @@
 <p align="center">
   <a href="#dart-Description-du-projet">Description du projet</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Langages / Librairies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Lancer le projet</a> &#xa0; | &#xa0;
+  <a href="#rocket-Langages-et-Librairies-utilisées">Langages / Librairies</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-Comment-lancer-le-projet-?">Lancer le projet</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/thomasl28500" target="_blank">Auteur</a>
 </p>
