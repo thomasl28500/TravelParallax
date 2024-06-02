@@ -73,6 +73,16 @@ $ git clone https://github.com/thomasl28500/TravelParallax
 # The projet will start in the <http://localhost:3000>
 ```
 
+## :rocket: Crédits ##
+
+Tutoriel suivi pour le Parallax :
+
+- [Vidéo Parallax - TrueCoder](https://www.youtube.com/watch?v=Yo3j_Dx4u7c&ab_channel=TrueCoder)
+
+Images libres de droit :
+
+- [Pixabay](https://pixabay.com/fr/)
+
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
