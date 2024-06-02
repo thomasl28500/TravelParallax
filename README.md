@@ -1,33 +1,33 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="travelparallax" />
+  <img src="./.github/app.gif" alt="TravelParallax" />
 
   &#xa0;
 
-  <!-- <a href="https://travelparallax.netlify.app">Demo</a> -->
+  <!-- <a href="https://TravelParallax.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">travelparallax</h1>
+<h1 align="center">TravelParallax</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/thomasl28500/travelparallax?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/thomasl28500/TravelParallax?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/thomasl28500/travelparallax?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/thomasl28500/TravelParallax?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/thomasl28500/travelparallax?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/thomasl28500/TravelParallax?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/thomasl28500/travelparallax?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/thomasl28500/TravelParallax?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thomasl28500/travelparallax?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thomasl28500/TravelParallax?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thomasl28500/travelparallax?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thomasl28500/TravelParallax?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thomasl28500/travelparallax?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thomasl28500/TravelParallax?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
 
 <!-- <h4 align="center"> 
-	🚧  travelparallax 🚀 Under construction...  🚧
+	🚧  TravelParallax 🚀 Under construction...  🚧
 </h4> 
 
 <hr> -->
@@ -67,7 +67,7 @@ The following tools were used in this project:
 
 ```bash
 # Clone this project
-$ git clone https://github.com/thomasl28500/travelparallax
+$ git clone https://github.com/thomasl28500/TravelParallax
 
 # Double click on HTML file
 
