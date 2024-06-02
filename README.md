@@ -37,6 +37,7 @@
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-Langages-et-Librairies-utilisées">Langages / Librairies</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-Comment-lancer-le-projet-?">Lancer le projet</a> &#xa0; | &#xa0;
+    <a href="#rocket-Crédits">Crédits</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/thomasl28500" target="_blank">Auteur</a>
 </p>
