@@ -50,7 +50,7 @@ Array.from(parallax_el)
             el,
             {
                 top: "55vh",
-                duration: 2, // 10s de défilement
+                duration: 2, // 2s de défilement
                 ease: "power3.out",
             },
             "1" // lancement de l'animation 1s après l'actualisation de la page
