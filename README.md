@@ -7,7 +7,6 @@
 </div>
 
 <img src="img/logo.png" alt="logo" align="center">
-<h1 align="center">TravelParallax</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/thomasl28500/TravelParallax?color=56BEB8">
@@ -34,7 +33,7 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">Description du projet</a> &#xa0; | &#xa0; 
+  <a href="#dart-Description-du-projet">Description du projet</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Langages / Librairies</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Lancer le projet</a> &#xa0; | &#xa0;
