@@ -104,23 +104,23 @@ main {
 
 .backgroundFilterMiami {
     position: absolute;
-    width: 2800px;
+    width: 194.44%;
     transform: translate(-50%, -50%);
-    top: calc(50% - 390px);
-    left: calc(50% + 10px);
+    top: 1.86%;
+    left: 50.69%;
     z-index: 1;
     pointer-events: none;
 }
 
 .parallax {
     pointer-events: none;
-    transform: translate(-50%, -50%);
+    transition: 2s cubic-bezier(.2,.49,.32,.99);
 }
 
 .text {
     position: absolute;
     z-index: 2;
-    top: calc(50% - 130px);
+    top: calc(50% - 90px);
     left: 50%;
     text-align: center;
     text-transform: uppercase;
@@ -141,11 +141,12 @@ main {
 
 .miamiBgFilter {
     position: absolute;
-    width: 1550px;
-    top: calc(50% - 45px);
-    left: calc(50%);
+    width: 129.16%;
+    top: 56.79%;
+    left: 50%;
     z-index: 3;
     pointer-events: none;
+    transform: translate(-50%, 100vh);
 }
 
 .vignette {
