@@ -6,6 +6,7 @@
   <!-- <a href="https://TravelParallax.netlify.app">Demo</a> -->
 </div>
 
+<img src="img/logo.png" alt="logo" align="center">
 <h1 align="center">TravelParallax</h1>
 
 <p align="center">
@@ -33,17 +34,17 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#dart-about">Description du projet</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Langages / Librairies</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Lancer le projet</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/thomasl28500" target="_blank">Author</a>
+  <a href="https://github.com/thomasl28500" target="_blank">Auteur</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Description du projet ##
 
 L'objectif principal de ce projet est d'apprendre le Parallax. Pour ce faire j'ai suivi un tutoriel que j'ai crédité plus loin dans le ReadMe.
 
@@ -53,17 +54,16 @@ L'objectif principal de ce projet est d'apprendre le Parallax. Pour ce faire j'a
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
 
-## :rocket: Technologies ##
+## :rocket: Langages et Librairies utilisées ##
 
-The following tools were used in this project:
+Les langages et Librairies utilisées dans ce projet :
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [GSAP](https://gsap.com/)
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Comment lancer le projet ? ##
 
 ```bash
 # Clone this project
@@ -71,7 +71,7 @@ $ git clone https://github.com/thomasl28500/TravelParallax
 
 # Double click on HTML file
 
-# The server will initialize in the <http://localhost:3000>
+# The projet will start in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
@@ -79,8 +79,8 @@ $ git clone https://github.com/thomasl28500/TravelParallax
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/thomasl28500" target="_blank">ME</a>
+Made with :heart: by <a href="https://github.com/thomasl28500" target="_blank">Thomasl28500</a>
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">Retourner en haut de la page</a>
