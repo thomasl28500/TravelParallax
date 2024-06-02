@@ -51,50 +51,6 @@ header ul a {
     font-size: 0.83rem;
 }
 
-.menuBurger {
-    padding-left: 1.5rem;
-}
-
-.menuBurger a {
-    padding: 0;
-    width: 37px;
-    height: 37px;
-    display: flex;
-    border-radius: 50%;
-    background-color: rgba(115, 115, 115, 0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    justify-content: center;
-    align-items: center;
-}
-
-.menuBurger a .menu {
-    position: relative;
-    width: 52%;
-    height: 1.3px;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
-.menuBurger a .menu::after, .menuBurger a .menu::before {
-    content: "";
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    left: 50%;
-    background-color: inherit;
-    border-radius: 2px;
-    transform: translateX(-50%);
-}
-
-.menuBurger a .menu::after {
-    top: 4.5px;
-}
-
-.menuBurger a .menu::before{
-    top: -4.5px;
-}
-
 main {
     height: 100vh;
     width: 100vw;
