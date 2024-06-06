@@ -32,7 +32,7 @@
         <img src="img/backgroundFilterMiami.png" data-distance="-200" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0" class="parallax backgroundFilterMiami">
         <div class="text parallax" data-speedx="0.25" data-speedy="0.33" data-speedz="0.1" data-rotation="0.15">
             <h2>Floride</h2>
-            <h1>Miami</h1>
+            <h1 class="city">Miami</h1>
         </div>
         <img src="img/miamiBgFilter.png" data-distance="-200" data-speedx="0.2" data-speedy="0.28" data-speedz="0.2" data-rotation="0.2" class="parallax miamiBgFilter">
     </main>
@@ -40,21 +40,29 @@
         <div class="row d-flex justify-content-center text-center">
             <h1 class="title">Miami et sa richesse culturelle incomparable !</h1>
             <p class="iconP">
-                <img src="/img/etats-unis.png" alt="Drapeau USA" class="iconTitle">
+                <img src="img/etats-unis.png" alt="Drapeau USA" class="iconTitle">
             </p>
         </div>
         <div class="container">
             <div class="row allData">
-                <div class="col-xs-12 col-md-4 meteo">
+                <div class="col-xs-12 col-md-5 meteo">
                     <div class="row firstPartMeteo">
                         <div class="col">
-                            <h2 class="d-flex flex-column">Miami<small>May 24, 2016</small></h2>
-                            <p class="h3">Rainy</p>
+                            <h2 class="d-flex flex-column">
+                                <span class="cityMeteo"></span>
+                                <small class="d-flex align-items-center"><div id="iconDay"><img id="wicon" src="" alt="Weather icon"></div><span class="weather-description"></span></small>
+                            </h2>
                         </div>
                         <div class="col">
                             <div class="h1 temperature">
-                                <span>12°</span>
-                                <small>8° (min) / 13° (max)</small>
+                                <span class="current-temp"></span>
+                                <small>
+                                    <img src="img/svg/arrow-down-solid.svg" alt="">
+                                    <span class="min-temp"></span>
+                                    <span class="separateur"> | </span>
+                                    <span class="max-temp"></span>
+                                    <img src="img/svg/arrow-up-solid.svg" alt="">
+                                </small>
                             </div>
                         </div>
                         <hr>
@@ -62,30 +70,7 @@
                     <div class="row">
                         <div class="col">
                             <ul class="prevMeteo">
-                                <li>
-                                    <h3 class="h5">Wed</h3>
-                                    <p><i class="mi mi-fw mi-2x mi-cloud-sun"></i><br>9°/18°</p>
-                                </li>
-                                <li>
-                                    <h3 class="h5">Wed</h3>
-                                    <p><i class="mi mi-fw mi-2x mi-cloud-sun"></i><br>9°/18°</p>
-                                </li>
-                                <li>
-                                    <h3 class="h5">Wed</h3>
-                                    <p><i class="mi mi-fw mi-2x mi-cloud-sun"></i><br>9°/18°</p>
-                                </li>
-                                <li>
-                                    <h3 class="h5">Wed</h3>
-                                    <p><i class="mi mi-fw mi-2x mi-cloud-sun"></i><br>9°/18°</p>
-                                </li>
-                                <li>
-                                    <h3 class="h5">Wed</h3>
-                                    <p><i class="mi mi-fw mi-2x mi-cloud-sun"></i><br>9°/18°</p>
-                                </li>
-                                <li>
-                                    <h3 class="h5">Wed</h3>
-                                    <p><i class="mi mi-fw mi-2x mi-cloud-sun"></i><br>9°/18°</p>
-                                </li>
+                                <!-- Structure ajoutée en JS -->
                             </ul>
                         </div>
                     </div>

@@ -48,10 +48,18 @@ header ul {
 header ul a {
     text-decoration: none;
     color: #fff;
-    padding: 0 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 0.83rem;
+    font-size: 1rem;
+}
+
+header ul li {
+    padding: .5rem 1.5rem;
+}
+
+header ul li:hover {
+    border: 1px solid #fff;
+    border-radius: 1rem;
 }
 
 main {
@@ -128,7 +136,7 @@ header ul {
 }
 
 .allData .meteo {
-    background-image: url("../img/sky.jpg");
+    background-image: linear-gradient(310deg, #2e3236, #23282d);
     background-size: cover;
     border-radius: 1rem;
     padding: 1.5rem;
@@ -141,8 +149,8 @@ header ul {
     font-weight: 500;
 }
 
-.meteo small {
-    font-size: 35%;
+div.h1.temperature small span{
+    font-size: 1rem;
 }
 
 .meteo h2 {
@@ -175,6 +183,7 @@ header ul {
 
 .prevMeteo {
     display: flex;
+    overflow-x: auto;
     justify-content: space-around;
     padding-left: 0;
     margin-bottom: 0;
@@ -225,5 +234,62 @@ div.h1.temperature {
 }
 
 div.h1.temperature span {
-    font-size: 5rem;
+    font-size: 4rem;
+}
+
+.weather-description {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+#iconDay #wicon {
+    width: 4rem;
+}
+
+#iconPrev {
+    width: 4rem;
+}
+
+.prevMeteo li {
+    text-align: center;
+    border-right: 1px solid rgb(255 255 255 / 25%);
+}
+
+.prevMeteo li:nth-child(5) {
+    border-right: 0;
+}
+
+.prevMeteo li p {
+   margin-bottom: 0;
+}
+
+.prevMeteo li p, .prevMeteo li h3 {
+    margin: 0 .5rem;
+}
+
+.temperature small {
+    display: flex;
+    gap: .5rem;
+    padding-top: 1rem;
+}
+
+.temperature small img {
+    width: .8rem;
+}
+
+.temperature small .min-temp {
+    color: #ff2954;
+}
+
+.temperature small .max-temp {
+    color: #24ff6d;
+}
+
+.red {
+    color: #ff2954;
+}
+
+.green {
+    color: #24ff6d;
 }
