@@ -51,13 +51,10 @@ header ul a {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 1rem;
+    padding: .5rem;
 }
 
-header ul li {
-    padding: .5rem 1.5rem;
-}
-
-header ul li:hover {
+header ul li a:hover {
     border: 1px solid #fff;
     border-radius: 1rem;
 }
@@ -162,7 +159,7 @@ div.h1.temperature small span{
     height: auto;
 }
 
-.main-content .title {
+.main-content .title, section.black .title{
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -171,6 +168,12 @@ div.h1.temperature small span{
     justify-content: center;
     align-items: center;
     gap: .5rem;
+    padding-bottom: 2rem;
+}
+
+.illustration {
+    max-width: 100%;
+    height: auto;
 }
 
 .main-content .iconP::after, .main-content .iconP::before {
@@ -271,7 +274,10 @@ div.h1.temperature span {
 .temperature small {
     display: flex;
     gap: .5rem;
-    padding-top: 1rem;
+}
+
+.boxIcon img.weather {
+    padding: 0;
 }
 
 .temperature small img {
@@ -292,4 +298,55 @@ div.h1.temperature span {
 
 .green {
     color: #24ff6d;
+}
+
+.data p {
+    white-space: nowrap;
+}
+
+section.black {
+    background-color: #23282d;
+}
+
+section.black p, section.black h1 {
+    color: #fff;
+}
+
+section.black.container, section.white.container {
+    max-width: 100%;
+    margin-top: 3rem;
+}
+
+.allData {
+    gap: 3rem;
+}
+
+.mini-card {
+    width: 100%;
+    height: 5rem;
+}
+
+.mini-card .allData {
+    margin-top: -28px;
+    z-index: 9999;
+    position: relative;
+}
+
+p:has(.more) {
+    padding-top: 1rem;
+}
+
+.more {
+    text-decoration: none;
+    background-color: #23282d;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    color: #f8f9fa;
+    border: 2px solid #23282d;
+    font-weight: 700;
+}
+
+.more:hover {
+    background-color: #f8f9fa;
+    color: #23282d;
 }
