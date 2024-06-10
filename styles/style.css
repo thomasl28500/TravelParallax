@@ -344,9 +344,48 @@ p:has(.more) {
     color: #f8f9fa;
     border: 2px solid #23282d;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    width: 11rem;
+    justify-content: center;
 }
 
 .more:hover {
     background-color: #f8f9fa;
     color: #23282d;
+}
+
+.location {
+    padding-bottom: 3rem;
+}
+
+.location p {
+    text-align: justify;
+}
+
+.location a img {
+    width: .8rem;
+    filter: invert(100%) sepia(10%) saturate(7500%) hue-rotate(165deg) brightness(118%) contrast(108%);
+}
+
+.location a:hover img{
+    filter: none;
+}
+
+.scrollToTop {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f8f9fa;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollToTop img {
+    filter: invert(11%) sepia(24%) saturate(414%) hue-rotate(169deg) brightness(91%) contrast(88%);
 }
