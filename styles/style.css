@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
 
 *, *::before, *::after {
     padding: 0;
@@ -13,7 +14,7 @@ body {
 }
 
 ::selection {
-    background-color: #ffffff7e;
+    background-color: #f8f9fa;
 }
 
 .logo {
@@ -47,7 +48,7 @@ header ul {
 
 header ul a {
     text-decoration: none;
-    color: #fff;
+    color: #f8f9fa;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 1rem;
@@ -55,7 +56,7 @@ header ul a {
 }
 
 header ul li a:hover {
-    border: 1px solid #fff;
+    border: 1px solid #f8f9fa;
     border-radius: 1rem;
 }
 
@@ -88,7 +89,7 @@ main {
     left: 50%;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: #f8f9fa;
     pointer-events: auto;
 }
 
@@ -132,34 +133,12 @@ header ul {
     padding: 2rem;
 }
 
-.allData .meteo {
-    background-image: linear-gradient(310deg, #2e3236, #23282d);
-    background-size: cover;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    color: #fff;
-    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, .05);
-}
-
-.meteo h1 {
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-div.h1.temperature small span{
-    font-size: 1rem;
-}
-
-.meteo h2 {
-    font-size: 50px;
-}
-
 .row .iconTitle {
     width: 3rem;
     height: auto;
 }
 
-.main-content .title, section.black .title{
+.main-content .title, .section-galerie .galerie .textGalerie h3 {
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -182,15 +161,6 @@ div.h1.temperature small span{
     background: #000;
     width: 50px;
     height: .01rem;
-}
-
-.prevMeteo {
-    display: flex;
-    overflow-x: auto;
-    justify-content: space-around;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
 }
 
 .allData {
@@ -229,48 +199,6 @@ div.h1.temperature small span{
     align-items: center;
 }
 
-div.h1.temperature {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-div.h1.temperature span {
-    font-size: 4rem;
-}
-
-.weather-description {
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    white-space: nowrap;
-}
-
-#iconDay #wicon {
-    width: 4rem;
-}
-
-#iconPrev {
-    width: 4rem;
-}
-
-.prevMeteo li {
-    text-align: center;
-    border-right: 1px solid rgb(255 255 255 / 25%);
-}
-
-.prevMeteo li:nth-child(5) {
-    border-right: 0;
-}
-
-.prevMeteo li p {
-   margin-bottom: 0;
-}
-
-.prevMeteo li p, .prevMeteo li h3 {
-    margin: 0 .5rem;
-}
-
 .temperature small {
     display: flex;
     gap: .5rem;
@@ -292,29 +220,8 @@ div.h1.temperature span {
     color: #24ff6d;
 }
 
-.red {
-    color: #ff2954;
-}
-
-.green {
-    color: #24ff6d;
-}
-
 .data p {
     white-space: nowrap;
-}
-
-section.black {
-    background-color: #23282d;
-}
-
-section.black p, section.black h1 {
-    color: #fff;
-}
-
-section.black.container, section.white.container {
-    max-width: 100%;
-    margin-top: 3rem;
 }
 
 .allData {
@@ -384,6 +291,7 @@ p:has(.more) {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #f8f9fa;
 }
 
 .scrollToTop img {
@@ -396,7 +304,7 @@ p:has(.more) {
 
 .titleVignette {
     background-color: #23282d;
-    color: #fff;
+    color: #f8f9fa;
     display: inline-block;
     font-weight: 400;
     padding: .25rem 2rem;
@@ -423,7 +331,7 @@ footer .content-footer p {
 
 footer .content-footer .copyright {
     padding-bottom: 1rem;
-    color: #fff;
+    color: #f8f9fa;
     margin: 0;
 }
 
@@ -435,14 +343,14 @@ footer .content-footer .lienFooter {
 }
 
 footer .content-footer .lienFooter a {
-    border: 1px solid #fff;
+    border: 1px solid #f8f9fa;
     border-radius: 100%;
     padding: .5rem;
     display: flex;
 }
 
 footer .content-footer .lienFooter a:hover {
-    background-color: #fff;
+    background-color: #f8f9fa;
 }
 
 footer .content-footer .lienFooter a:hover img {
@@ -453,4 +361,137 @@ footer .content-footer .lienFooter img {
     width: 20px;
     height: 20px;
     filter: invert(92%) sepia(37%) saturate(2%) hue-rotate(215deg) brightness(107%) contrast(100%);
+}
+
+footer {
+    padding-top: 2rem;
+}
+
+.imgParallax.Miami {
+    background-image: url(../img/Miami/miamiParallaxImg.jpg);
+}
+
+.imgParallax.Miami {
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.imgParallax .citation {
+    height: 100%;
+    background-color: rgba(248, 249, 250, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgParallax .citation p {
+    margin: 0 3rem;
+    font-size: 1.5rem;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgParallax .citation p .auteur {
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.quote {
+    position: absolute;
+    top: -25px;
+    background-color: #23282d;
+    border-radius: 100%;
+    left: 20px;
+}
+
+.quote img {
+    filter: invert(92%) sepia(37%) saturate(2%) hue-rotate(215deg) brightness(107%) contrast(100%);
+    width: 40px;
+    margin: .5rem;
+}
+
+.section-galerie .galerie .midImage .image, .section-galerie .galerie .grandeImage .image {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.section-galerie .galerie .midImage .image img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.section-galerie .galerie .grandeImage .image img {
+    object-position: bottom;
+}
+
+.section-galerie .galerie {
+    padding: 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.section-galerie .galerie .grandeImage {
+    grid-column: 1 / 3;
+    height: 300px;
+    position: relative;
+}
+
+.section-galerie .galerie .midImage {
+    position: relative;
+}
+
+.main-content.secondContent .iconP {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.section-galerie .galerie .textGalerie {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(0, 0, 0, .6);;
+}
+
+.section-galerie .galerie .textGalerie .more {
+    border: 2px solid #f8f9fa;
+}
+
+.section-galerie .galerie .textGalerie .more:hover {
+    border: 2px solid #23282d;
+    background-color: #f8f9fa;
+    color: #23282d;
+}
+
+.section-galerie .galerie .image {
+    position: relative;
+}
+
+.section-galerie .galerie .midImage:hover .textGalerie, .section-galerie .galerie .grandeImage:hover .textGalerie {
+    display: flex;
+}
+
+.section-galerie .galerie .textGalerie h3, .section-galerie .galerie .textGalerie a {
+    color: #f8f9fa;
+}
+
+.section-galerie .galerie .textGalerie h3 {
+    font-size: 2rem;
 }

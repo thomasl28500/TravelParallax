@@ -67,4 +67,47 @@
         gap: initial;
     }
 
+    .imgParallax .citation p .auteur {
+        font-size: 2.5rem;
+    }
+
+    .imgParallax .citation p {
+        font-size: 2rem;
+    }
+
+    .imgParallax.Miami {
+        background-attachment: fixed;
+        height: 350px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .section-galerie .galerie {
+        padding: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .section-galerie .galerie .grandeImage {
+        height: 100%;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    .imgParallax .citation {
+        width: 40%;
+        margin-right: 5rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .section-galerie {
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+
 }
