@@ -50,12 +50,11 @@ header ul a {
     text-decoration: none;
     color: #f8f9fa;
     text-transform: uppercase;
-    font-weight: 300;
     font-size: 1rem;
     padding: .5rem;
 }
 
-header ul li a:hover {
+header ul li a:hover, header ul li a.active {
     border: 1px solid #f8f9fa;
     border-radius: 1rem;
 }
@@ -424,16 +423,12 @@ footer {
     height: 100%;
 }
 
-.section-galerie .galerie .midImage .image img {
+.section-galerie .galerie .midImage .image img, .section-galerie .galerie .grandeImage .image img {
     display: block;
     height: 100%;
     object-fit: cover;
     object-position: center;
     width: 100%;
-}
-
-.section-galerie .galerie .grandeImage .image img {
-    object-position: bottom;
 }
 
 .section-galerie .galerie {
@@ -445,12 +440,14 @@ footer {
 
 .section-galerie .galerie .grandeImage {
     grid-column: 1 / 3;
-    height: 300px;
+    height: 210px;
     position: relative;
 }
 
 .section-galerie .galerie .midImage {
     position: relative;
+    grid-column: 1 / 3;
+    height: 210px;
 }
 
 .main-content.secondContent .iconP {

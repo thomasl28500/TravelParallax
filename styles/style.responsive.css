@@ -84,6 +84,11 @@
 
 @media screen and (min-width: 992px) {
 
+    .section-galerie .galerie .midImage {
+        grid-column: initial;
+        height: initial;
+    }
+
     .section-galerie .galerie {
         padding: 1rem;
         grid-template-columns: repeat(3, 1fr);
