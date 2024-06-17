@@ -370,7 +370,11 @@ footer {
     background-image: url(../img/Miami/miamiParallaxImg.jpg);
 }
 
-.imgParallax.Miami {
+.imgParallax.Paris {
+    background-image: url(../img/Paris/parisParallaxImg.jpg);
+}
+
+.imgParallax {
     height: 270px;
     background-repeat: no-repeat;
     background-position: center;
