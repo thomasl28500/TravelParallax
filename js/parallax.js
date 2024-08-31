@@ -55,6 +55,16 @@ Array.from(parallax_el)
             },
             "1" // lancement de l'animation 1s après l'actualisation de la page
         );
+    } else if (el.classList.contains('parisBgFilter')) {
+        timeline.from(
+            el,
+            {
+                top: "60vh",
+                duration: 2, // 2s de défilement
+                ease: "power3.out",
+            },
+            "1" // lancement de l'animation 1s après l'actualisation de la page
+        );
     } else {
         timeline.from(
             el,

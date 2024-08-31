@@ -37,7 +37,16 @@
         height: 311.104%;
     }
 
+    .backgroundFilterParis {
+        width: initial;
+        height: 311.104%;
+    }
+
     .miamiBgFilter {
+        width: initial;
+        height: 206.656%;
+    }
+    .parisBgFilter {
         width: initial;
         height: 206.656%;
     }
