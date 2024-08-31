@@ -69,7 +69,7 @@ Les langages et Librairies utilisées dans ce projet :
 # Clone this project
 $ git clone https://github.com/thomasl28500/TravelParallax
 
-# Double click on HTML file
+# Double click on "Accueil.html"
 
 # The projet will start in the <http://localhost:3000>
 ```
