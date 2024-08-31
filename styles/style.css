@@ -517,3 +517,7 @@ footer {
 .section-galerie .galerie .textGalerie h3 {
     font-size: 2rem;
 }
+
+header nav.navAccueil ul a {
+    color: #f8f9fa;
+}
