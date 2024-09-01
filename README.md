@@ -84,6 +84,10 @@ Images libres de droit :
 
 - [Pixabay](https://pixabay.com/fr/)
 
+Code for Loading Page :
+
+- [CodePen](https://codepen.io/jamesfinn180/pen/VwzENbR)
+
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
