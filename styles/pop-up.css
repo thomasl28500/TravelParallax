@@ -1,0 +1,90 @@
+body.no-scroll {
+    overflow: hidden;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f8f9fa;    
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, .05);
+}
+
+#popup div.group {
+    display: flex;
+    align-items: center;
+}
+
+#popup div.group h5 {
+    margin: 0;
+}
+
+#popup button#cancelBtn {
+    margin-left: 2rem;
+    background-color: #ff2954;
+    border: 2px solid #ff2954;
+    padding: .5rem;
+}
+
+#popup button#confirmBtn {
+    margin-top: 1rem;
+}
+
+#popup button#cancelBtn:hover {
+    background-color: #f8f9fa;
+    color: #ff2954;
+}
+
+#popup button#cancelBtn:hover img {
+    filter: invert(32%) sepia(96%) saturate(3417%) hue-rotate(331deg) brightness(98%) contrast(106%);
+}
+
+#popup button#cancelBtn img {
+    width: 1rem;
+}
+
+#popup button {
+    text-decoration: none;
+    background-color: #199f1b;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    color: #f8f9fa;
+    border: 2px solid #199f1b;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    justify-content: center;
+    margin: auto;
+}
+
+#popup button:hover {
+    background-color: #f8f9fa;
+    color: #199f1b;
+}
+
+#popup button img {
+    width: 1.5rem;
+    filter: invert(100%) sepia(10%) saturate(7500%) hue-rotate(165deg) brightness(118%) contrast(108%);
+}
+
+#popup button:hover img {
+    filter: invert(36%) sepia(94%) saturate(769%) hue-rotate(82deg) brightness(104%) contrast(90%);
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 255 255 / 40%);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+}
