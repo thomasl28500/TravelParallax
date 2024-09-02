@@ -85,13 +85,13 @@ body:not(:has(.loadPage.hidden)) {
 }
 
 .line-box {
-    width: 15%;
+    width: 8%;
     border: 2px solid #23282d;
     border-radius: 20px;
 }
 
 .line {
-    height: 20px;
+    height: 10px;
     border-radius: 20px;
     background-color: #23282d;
     animation: loading 2s forwards cubic-bezier(0,0,0,0);
