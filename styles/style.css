@@ -563,7 +563,7 @@ div.backgroundHome {
 }
 
 div.backgroundHome img {
-    max-height: 100vh;
+    height: 100vh;
     object-fit: cover;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -605,4 +605,12 @@ div.backgroundHome div.contentBackground p::after, div.backgroundHome div.conten
     background: #f8f9fa;
     width: 50px;
     height: .1rem;
+}
+
+header.scroll {
+    position: sticky;
+    background-color: #23282d;
+    border-bottom: 0;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.2);
+    z-index: 11000;
 }
